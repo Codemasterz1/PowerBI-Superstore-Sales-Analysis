@@ -45,3 +45,4 @@ The Power BI dashboard consists of the following key visuals:
 *Placeholder:
 ![image](https://github.com/user-attachments/assets/ac142612-45e5-4576-a37d-2dbc515a6ce8)
 
+Populated README with project details and dashboard insights
