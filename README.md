@@ -41,6 +41,41 @@ The Power BI dashboard consists of the following key visuals:
         4.  **Top 10 Sub-Categories by Sales (Bar Chart):**
     *   **Insight:** Phones (approx. $0.33M) and Chairs (approx. $0.32M) are the leading sub-categories by sales. The chart displays the top 10 sub-categories to focus on key contributors.
 
+## Part 2: Profitability Analysis Dashboard
+
+### Data Source (for Profitability Analysis)
+*   Dataset: Sample - Superstore Sales (Full version including `Sales`, `Profit`, `Quantity`, `Discount`)
+*   Source: ... (e.g., Kaggle - specify if it's a different link or version) ...
+*   Table Name in Power BI: `Orders`
+
+### Tools Used (for Profitability Analysis)
+*   Power BI Desktop, etc.
+
+### DAX Measures Created (for Profitability Analysis)
+*   Total Sales = SUM('Orders'[Sales])
+*   Total Profit = SUM('Orders'[Profit])
+*   Profit Margin = DIVIDE([Total Profit], [Total Sales])
+    *   *(Formatted as percentage)*
+
+### Profitability Dashboard Visualizations & Key Insights
+*   **Sum of Profit by Sub-Category (Bar Chart):**
+    *   Insight: Revealed key profit drivers (Copiers, Phones) and loss-making sub-categories (Tables, Bookcases).
+*   **Sum of Profit by State (Map Visual):**
+    *   Insight: Highlighted states with highest and lowest profit contributions.
+*   **Sales vs. Profit by Sub-Category (Scatter Plot):**
+    *   Insight: Segmented sub-categories into high/low sales and high/low profit, identifying "problem children" like Tables (high sales, negative profit).
+*   **Table: Sub-Category, Sales, Profit, Profit Margin:**
+    *   Insight: Provided detailed financial breakdown and clear profit margin percentages per sub-category.
+* 
+
+### Profitability Dashboard Screenshot
+![image](https://github.com/user-attachments/assets/1a58c09f-a717-4d63-9e5a-d087eb9267f3)
+
+
+## Future Enhancements (Applies to further Superstore analysis)
+*   Customer segmentation (e.g., RFM analysis).
+*   Deeper trend analysis (YoY, MoM growth rates for both sales and profit).
+
 ## Dashboard Screenshot
 *Placeholder:
 ![image](https://github.com/user-attachments/assets/ac142612-45e5-4576-a37d-2dbc515a6ce8)
