@@ -113,7 +113,7 @@ To segment customers based on their Recency (how recently they purchased), Frequ
 
 
 ### Key Insights & Potential Actions from RFM Analysis (Part 3)
-*   Dominance of Champions: The "Champions" segment is the largest both in customer count (approx. [Number from your chart, e.g., 280+]) and in total sales contribution (over $1M). This highlights the critical importance of retaining these high-value, engaged customers.
+*   Dominance of Champions: The "Champions" segment is the largest both in customer count (approx. 286) and in total sales contribution (over $1M). This highlights the critical importance of retaining these high-value, engaged customers.
     *   *Potential Action:* Implement targeted loyalty programs and exclusive offers for Champions.
 *   Value in "Needs Attention": The "Needs Attention" segment is the second largest in terms of customer count and also contributes significantly to sales.
     *   *Potential Action:* Develop re-engagement campaigns to understand their needs and encourage further purchases.
